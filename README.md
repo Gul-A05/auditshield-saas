@@ -38,10 +38,10 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
-2. Install runtime dependencies:
+2. Install runtime dependencies from the lockfile:
 
 ```bash
-pip install pandas streamlit openpyxl
+pip install -r requirements.txt
 ```
 
 3. Run the Streamlit dashboard (development):
