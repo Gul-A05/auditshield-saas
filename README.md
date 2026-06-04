@@ -80,5 +80,5 @@ Open the shown URL in your browser to interact with the AuditShield UI.
    ```bash
    python -m unittest test_engine.py
 ---
-
-If you'd like, I can also generate a `requirements.txt`, add unit tests around the scoring engine, or create a Dockerfile for consistent deployment. Which would you prefer next?
+---
+*Developed as an enterprise-grade CIS portfolio project demonstrating automated data validation, statistical anomaly detection, and fault-tolerant business intelligence frameworks.*
