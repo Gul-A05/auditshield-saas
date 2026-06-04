@@ -76,7 +76,9 @@ Open the shown URL in your browser to interact with the AuditShield UI.
 1. Follow the Quickstart above to prepare your environment.
 2. Run the dashboard and iterate on `app.py` for algorithm tuning or UI improvements.
 3. Submit pull requests with clear test data and short changelog notes.
-
+4. Run the automated enterprise test suite:
+   ```bash
+   python -m unittest test_engine.py
 ---
 
 If you'd like, I can also generate a `requirements.txt`, add unit tests around the scoring engine, or create a Dockerfile for consistent deployment. Which would you prefer next?
